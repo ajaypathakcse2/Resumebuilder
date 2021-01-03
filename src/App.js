@@ -1,10 +1,10 @@
 import React from 'react'
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
-}
+import Routes from './routes'
 
-export default App;
+export const App = () => {
+    return (
+        <>
+            <Routes />
+        </>
+    );
+}
