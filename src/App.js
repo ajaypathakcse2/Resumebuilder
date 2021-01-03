@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Button from './components/Button'
 import InputField from './components/InputField'
 import TextArea from './components/TextArea'
@@ -29,5 +30,14 @@ function App() {
     </div>
   );
 }
+=======
+import Routes from './routes'
+>>>>>>> 28cca7e4562cb2ea1b7d8909ca4f802a3aedcc29
 
-export default App;
+export const App = () => {
+    return (
+        <>
+            <Routes />
+        </>
+    );
+}
