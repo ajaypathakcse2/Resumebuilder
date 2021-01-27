@@ -1,0 +1,14 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}   
+
+@media(max-width:600px){
+    .formWindow{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 0;
+    }
+}
